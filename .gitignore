@@ -26,7 +26,8 @@ venv/
 ENV/
 env/
 .venv/
-.env/
+env.bak/
+venv.bak/
 
 # Django
 *.log
@@ -35,49 +36,20 @@ db.sqlite3
 db.sqlite3-journal
 media/
 staticfiles/
-celerybeat-schedule
-celerybeat.pid
-
-# Node.js
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Frontend build artifacts
-dist/
-build/
-coverage/
-.nyc_output/
-
-# Environment variables
 .env
-.env.local
-.env.*
+
+# Docker
+.dockerenv
+Dockerfile*
+docker-compose*
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Coverage
-.coverage
-htmlcov/
-.coverage.*
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# PostgreSQL
-*.dump
 ```
